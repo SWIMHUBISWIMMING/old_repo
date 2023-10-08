@@ -1,0 +1,19 @@
+There is a new beta channel that is going around. Yes, the site statuses are correct. If you are having issues it may be that you are on the beta channel.
+
+There is a simple way to check this.. Simply go to ROBLOX, Hit the F12 key, Open the Console Tab, and paste this in: Roblox.ProtocolHandlerClientInterface.playerChannel and hit enter.
+
+It should return an empty value like so:
+Roblox.ProtocolHandlerClientInterface.playerChannel
+''
+
+If it doesn't then you are on a beta channel and won't be able to use any of the sploits.
+Don't worry there is a simple way to resolve this.
+
+Simply install the TamperMonkey ext: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+
+Once installed, install the channel script:
+https://greasyfork.org/en/scripts/446731-auto-znext-channel (Open Source)
+
+If you installed the script in the past, it was updated today. Ensure you visit the link and update the script so you have better support
+
+After that go back to ROBLOX and refresh, once you try the steps above again it should be empty. You can then launch ROBLOX and it will update back to the global version and you continue as normal.
